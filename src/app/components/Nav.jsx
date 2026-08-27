@@ -1,19 +1,21 @@
-
+import "../globals.css"
 
 export default function Nav() {
-    return  (
-        <nav className="flex justify-end items-center w-full max-w-300 mx-auto h-25">
-            <ul className="flex">
-                <li className="my-0 mx-3">
-                    <a href="#" className="text-xl font-bold">Menu</a>
-                </li>
-                <li className="my-0 mx-3">
-                    <a href="#opening-hours" className="text-xl font-bold">Hours</a>
-                </li>
-                <li className="my-0 mx-3">
-                    <a href="#" className="text-xl font-bold">Find Us</a>
-                </li>
-            </ul>
-        </nav>        
-    );
+  return (
+    <nav className="w-full h-35">
+      <div className="flex justify-end items-center max-w-300 h-full mx-auto">
+        <ul className="flex text-[28px] text-(--yellow) font-bold upp">
+          <li className="mx-3">
+            <a href="#menu" className="">Menu</a>
+          </li>
+          <li className="mx-3">
+            <a href="#opening-hours" className="">Hours</a>
+          </li>
+          <li className="mx-3">
+            <a href="#find-us" className="">Find Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
 }
