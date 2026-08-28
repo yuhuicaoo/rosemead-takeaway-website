@@ -5,7 +5,7 @@ export default function Hero() {
     return  (
        <header className="absolute top-1/2 left-1/2 w-full max-w-300 px-7.5 py-0 -translate-x-1/2 -translate-y-1/2">
         <div className="text-(--yellow)">
-            <div className="max-w-150 h-16 mb-4 flex items-center bg-(--orange) rounded-4xl">
+            <div className="max-w-125 h-16 mb-4 flex items-center bg-(--orange) rounded-4xl">
                 <span className="kb-dot ml-6 mr-3"/>
                 <span className="text-white ml-3 font-bold text-[24px] uppercase">Open Now until 8:30pm</span>
             </div>
